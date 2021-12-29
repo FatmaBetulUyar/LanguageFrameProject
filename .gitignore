@@ -30,6 +30,10 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
+<<<<<<< HEAD
 
 # Yarn Integrity file
 .yarn-integrity
+=======
+node_modules
+>>>>>>> 9c8090f175536976f397440b28314a1f70a090d6

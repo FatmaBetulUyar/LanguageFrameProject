@@ -25,7 +25,8 @@ function LoginPage() {
 
   return (
     <div>
-      Login page
+       <ExamplesNavbar />
+            <SignUp/>
     </div>
     
   );
