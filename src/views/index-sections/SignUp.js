@@ -28,8 +28,7 @@ function SignUp() {
       <div
         className="section section-signup"
         style={{
-          backgroundImage:
-            "url(" + require("assets/img/bg11.jpg").default + ")",
+          backgroundColor:'orange',
           backgroundSize: "cover",
           backgroundPosition: "top center",
           minHeight: "700px",
@@ -37,7 +36,7 @@ function SignUp() {
       >
         <Container>
           <Row>
-            <Card className="card-signup" data-background-color="blue">
+            <Card className="card-signup" background-color="#111133">
               <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
@@ -127,7 +126,7 @@ function SignUp() {
                 <CardFooter className="text-center">
                   <Button
                     className="btn-neutral btn-round"
-                    color="info"
+                    color="white"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                     size="lg"

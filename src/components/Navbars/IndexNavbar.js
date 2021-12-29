@@ -61,7 +61,7 @@ function IndexNavbar() {
               id="navbar-brand"
               style={{fontSize:25, fontWeight:'bold'}}
             >
-                   <img alt="..." src={require("assets/img/logo2.png").default} style={{width:50,height:50}}></img>
+                   {/* <img alt="..." src={require("assets/img/logo2.png").default} style={{width:50,height:50}}></img> */}
               Language Frame
             </NavbarBrand>
             </Link>
@@ -93,13 +93,13 @@ function IndexNavbar() {
                to="/lecture-page"
                 >
                   <i></i>
-                  <p style={{fontSize:13}}>Dersler </p>
+                  <p style={{fontSize:13,margin:10}}>Dersler </p>
                 </Link> </NavItem>
                 <NavItem>
                 <Link to="/about-page">
                 
                   <i></i>
-                  <p style={{fontSize:13}}>Hakkımızda </p>
+                  <p style={{fontSize:13,margin:10}}>Hakkımızda </p>
                 </Link>
                 </NavItem>
                 <NavItem>
