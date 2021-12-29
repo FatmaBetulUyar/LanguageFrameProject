@@ -1,47 +1,58 @@
 import React from 'react'
-import { Image, Item } from 'semantic-ui-react'
+import { Image, Item,Button } from 'semantic-ui-react'
 
 const ContentItem = () => (
-  <Item.Group style={{margin:100}}>
-    <Item style={{flexDirection:'row',justifyContent:'space-between'}}>
-      <Item.Image style={{width:500}}  src={require("assets/img/c1.jpeg").default}/>
-      <Item.Content style={{margin:10}}>
-        <Item.Header style={{fontWeight:'bold',fontSize:40}} as='a'>HIZLI İLERLEME KAYDET</Item.Header>
-        <Item.Meta style={{width:480}}> Araştırma, kurslarımızın okuma, dinleme ve konuşma becerilerini etkili ve verimli bir şekilde verdiğini gösteriyor. </Item.Meta>
-        <Item.Description>
-        </Item.Description>
-      </Item.Content>
-    </Item>
-    <Item style={{justifyContent:'flex-end'}}>
-      <Item.Image style={{width:500}}  src={require("assets/img/c1.jpeg").default}/>
-      <Item.Content style={{margin:10}}>
-        <Item.Header style={{fontWeight:'bold',fontSize:40}} as='a'>MOTİVASYONUNU KORU
-</Item.Header>
-        <Item.Meta style={{width:480}}> Oyun tarzında özellikler, eğlenceli mücadeleler ve dost canlısı maskotumuz baykuş Duo'nun hatırlatmaları ile dil öğrenimini alışkanlık haline getirmeyi kolaylaştırıyoruz. </Item.Meta>
-        <Item.Description>
-        </Item.Description>
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image style={{width:500}}  src={require("assets/img/c1.jpeg").default}/>
-      <Item.Content style={{margin:10}}>
-        <Item.Header style={{fontWeight:'bold',fontSize:40}} as='a'>ÖĞRENİRKEN EĞLEN</Item.Header>
-        <Item.Meta style={{width:480}}> Etkili öğrenimin sıkıcı olması gerekmez! İlgi çekici alıştırma ve neşeli karakterlerle her gün çalışarak becerilerini geliştir. </Item.Meta>
-        <Item.Description>
-        </Item.Description>
-      </Item.Content>
-    </Item>
-    <Item>
-      <Item.Image style={{width:500}}  src={require("assets/img/c1.jpeg").default}/>
-      <Item.Content style={{margin:10}}>
-        <Item.Header style={{fontWeight:'bold',fontSize:40}} as='a'>HIZLI İLERLEME KAYDET</Item.Header>
-        <Item.Meta style={{width:480}}> Araştırma, kurslarımızın okuma, dinleme ve konuşma becerilerini etkili ve verimli bir şekilde verdiğini gösteriyor. </Item.Meta>
-        <Item.Description>
-        </Item.Description>
-      </Item.Content>
-    </Item>
-    
-  </Item.Group>
+    <div>
+
+
+<Item.Group relaxed>
+<Item style={{marginBottom:100}}>
+  <Item.Image  style={{marginLeft:200, marginTop:100,width:800,height:500,padding:30,backgroundColor:'blue',marginBottom:1}}
+                      src={require("assets/img/lf2.png").default}
+                    />
+  <Item.Content >
+    <Item.Header style={{fontSize:50,marginLeft:300,padding:10,marginTop:30,backgroundColor:'blue',width:600,height:100,color:'white'}}>Kaliteli İçeriklere Ulaş!</Item.Header>
+    <Item.Description style={{fontSize:20,marginLeft:300,padding:5,width:600,color:'black'}}> Language Frame, bünyesinde barındırdığı tecrübeli eğitmenleri sayesinde oldukça kapsamlı bir içeriğe sahip. </Item.Description>
+  </Item.Content>
+</Item>
+
+<Item style={{marginBottom:100}}>
+  <Item.Image style={{marginLeft:500,width:800,height:500,padding:30,backgroundColor:'orange'}}
+                      src={require("assets/img/lf2.png").default} />
+
+  <Item.Content verticalAlign='middle'>
+    <Item.Header style={{fontSize:50,marginLeft:600,padding:10,marginTop:30,backgroundColor:'orange',width:600,height:100}}>Öğrenirken eğlen!</Item.Header>
+    <Item.Description style={{fontSize:20,marginLeft:600,padding:5,width:600,color:'black'}}>
+Etkili öğrenimin sıkıcı olması gerekmez! İlgi çekici alıştırma ve neşeli karakterlerle her gün çalışarak becerilerini geliştir.</Item.Description>
+  </Item.Content>
+</Item>
+
+<Item style={{marginBottom:100}}>
+  <Item.Image  style={{marginLeft:200, marginTop:100,width:800,height:500,padding:30,backgroundColor:'blue',marginBottom:1}}
+                      src={require("assets/img/lf2.png").default}
+                    />
+  <Item.Content >
+    <Item.Header style={{fontSize:50,marginLeft:300,padding:10,marginTop:30,backgroundColor:'blue',width:600,height:100,color:'white'}}>Kaliteli İçeriklere Ulaş!</Item.Header>
+    <Item.Description style={{fontSize:20,marginLeft:300,padding:5,width:600,color:'black'}}> Language Frame, bünyesinde barındırdığı tecrübeli eğitmenleri sayesinde oldukça kapsamlı bir içeriğe sahip. </Item.Description>
+  </Item.Content>
+</Item>
+
+<Item style={{marginBottom:100}}>
+  <Item.Image style={{marginLeft:500,width:800,height:500,padding:30,backgroundColor:'orange'}}
+                      src={require("assets/img/lf2.png").default} />
+
+  <Item.Content verticalAlign='middle'>
+    <Item.Header style={{fontSize:50,marginLeft:600,padding:10,marginTop:30,backgroundColor:'orange',width:600,height:100}}>Öğrenirken eğlen!</Item.Header>
+    <Item.Description style={{fontSize:20,marginLeft:600,padding:5,width:600,color:'black'}}>
+Etkili öğrenimin sıkıcı olması gerekmez! İlgi çekici alıştırma ve neşeli karakterlerle her gün çalışarak becerilerini geliştir.</Item.Description>
+  </Item.Content>
+</Item>
+
+
+
+
+</Item.Group>
+</div>
 )
 
 export default ContentItem
