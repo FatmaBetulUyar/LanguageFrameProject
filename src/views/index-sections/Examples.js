@@ -13,31 +13,19 @@ function Examples() {
         <Container className="text-center">
           <Row>
             <div className="col">
-              <a href="examples/landing-page.html" target="_blank">
-                <img
-                  alt="..."
-                  className="img-raised"
-                  src={require("assets/img/landing.jpg").default}
-                ></img>
-              </a>
-              <Button
+              <Link>
+              <Button to="/about-page"
                 className="btn-round"
                 color="default"
-                to="/landing-page"
+                
                 outline
-                tag={Link}
+               
               >
                 View Landing Page
-              </Button>
+              </Button></Link>
             </div>
             <div className="col">
-              <a href="examples/profile-page.html" target="_blank">
-                <img
-                  alt="..."
-                  className="img-raised"
-                  src={require("assets/img/profile.jpg").default}
-                ></img>
-              </a>
+             
               <Button
                 className="btn-round"
                 color="default"

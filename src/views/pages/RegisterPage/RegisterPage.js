@@ -1,9 +1,12 @@
+
 import React from 'react'
+import SignUp from 'views/index-sections/SignUp'
+
 
 function RegisterPage() {
     return (
         <div>
-            Register
+            <SignUp/>
         </div>
     )
 }

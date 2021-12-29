@@ -54,8 +54,9 @@ function IndexNavbar() {
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="warning">
         <Container>
           <div className="navbar-translate">
+            <Link to="/index">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
+             
               target="_blank"
               id="navbar-brand"
               style={{fontSize:25, fontWeight:'bold'}}
@@ -63,6 +64,7 @@ function IndexNavbar() {
                    <img alt="..." src={require("assets/img/logo2.png").default} style={{width:50,height:50}}></img>
               Language Frame
             </NavbarBrand>
+            </Link>
             <UncontrolledTooltip target="#navbar-brand">
               Designed by LanguageFrame. 
             </UncontrolledTooltip>
