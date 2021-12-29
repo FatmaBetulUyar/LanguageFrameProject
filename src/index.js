@@ -34,6 +34,7 @@ import RegisterPage from "views/pages/RegisterPage/RegisterPage";
 
 import LecturePage from "views/pages/LecturePage";
 import AboutPage from "views/pages/AboutPage/AboutPage";
+import ContactPage from "views/pages/ContactPage/ContactPage";
 
 
 ReactDOM.render(
@@ -65,6 +66,10 @@ ReactDOM.render(
         <Route
           path="/lecture-page"
           render={(props) => <LecturePage {...props} />}
+        />
+         <Route
+          path="/contact-page"
+          render={(props) => <ContactPage {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
