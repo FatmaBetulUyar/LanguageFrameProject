@@ -87,31 +87,18 @@ function IndexNavbar() {
           >
             <Nav navbar>
               <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
-                  }}
+                <Link
+               to="/lecture-page"
                 >
                   <i></i>
                   <p style={{fontSize:13}}>Dersler </p>
-                </NavLink> </NavItem>
+                </Link> </NavItem>
                 <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .getElementById("download-section")
-                      .scrollIntoView();
-                  }}
-                >
+                <Link to="/about-page">
+                
                   <i></i>
                   <p style={{fontSize:13}}>Hakkımızda </p>
-                </NavLink>
+                </Link>
                 </NavItem>
                 <NavItem>
                   <Link to="/login-page" >

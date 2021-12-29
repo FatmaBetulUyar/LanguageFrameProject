@@ -32,6 +32,9 @@ import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage";
 
+import LecturePage from "views/examples/LecturePage";
+import AboutPage from "views/examples/AboutPage";
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -57,6 +60,14 @@ ReactDOM.render(
          <Route
           path="/register-page"
           render={(props) => <RegisterPage {...props} />}
+        />
+        <Route
+          path="/about-page"
+          render={(props) => <AboutPage {...props} />}
+        />
+        <Route
+          path="/lecture-page"
+          render={(props) => <LecturePage {...props} />}
         />
         <Redirect to="/index" />
         <Redirect from="/" to="/index" />
