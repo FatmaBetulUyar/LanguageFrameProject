@@ -40,13 +40,12 @@ function AboutPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="8">
-                <h2 className="title">Who we are?</h2>
+                <h2 className="title">Language Frame Nedir?</h2>
                 <h5 className="description">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record low maximum sea ice extent tihs year down
-                  to low ice extent in the Pacific and a late drop in ice extent
-                  in the Barents Sea.
+                  Language Frame, dil çerçevesi anlamına gelir. Ana felsefemiz sizlere belirli bir çerveve dahilinde modüller sunarak eğlenceli bir şekilde
+                  dil öğrenmenize olanak sağlamaktır. Sitemizde alanında etkin eğitmenlerden modülleri takip edebilir, ve bu modüllere ücretsiz 
+                  bir şekilde erişebilirsiniz. Eğitim içeriklerine başlamadan önce seviye tespit sınavına dahil olarak
+                  dil öğrenme serüveninize hangi çerçeve dahilinde başlayacağınızı keşfedebilirsiniz.
                 </h5>
               </Col>
             </Row>
@@ -62,18 +61,16 @@ function AboutPage() {
                     }}
                   >
                     <p className="blockquote blockquote-info">
-                      "Over the span of the satellite record, Arctic sea ice has
-                      been declining significantly, while sea ice in the
-                      Antarctichas increased very slightly" <br></br>
+                      Language Frame sayesinde hangi seviyede hangi eğitimler almam gerektiğini kolay bir şekilde öğrendim. Öğretirken eğlendiren mükemmel bir uygulama! <br></br>
                       <br></br>
-                      <small>-NOAA</small>
+                      <small>-Fatma</small>
                     </p>
                   </div>
                   <div
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg3.jpg").default + ")",
+                        "url(" + require("assets/img/st1.jpg").default + ")",
                     }}
                   ></div>
                 </Col>
@@ -82,41 +79,20 @@ function AboutPage() {
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg1.jpg").default + ")",
+                        "url(" + require("assets/img/language.jpg").default + ")",
                     }}
                   ></div>
                   <h3>
-                    So what does the new record for the lowest level of winter
-                    ice actually mean
+                    Peki neden Language Frame'i kullanmalısınız?
                   </h3>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                    Burada dil öğrenirken harika içerikler keşfedeceksiniz, bir yandan öğrenme süreciniz mükemmel ilerlerken bir yandan da dil kabiliyetinizi zirveye taşıyacaksınız.
                   </p>
                   <p>
-                    For a start, it does not automatically follow that a record
-                    amount of ice will melt this summer. More important for
-                    determining the size of the annual thaw is the state of the
-                    weather as the midnight sun approaches and temperatures
-                    rise. But over the more than 30 years of satellite records,
-                    scientists have observed a clear pattern of decline,
-                    decade-by-decade.
+                  Başlangıç için, "Nereden başlasam? Seviyem ne? Acaba ingilizcemi geliştirirken çok zorlanacak mıyım? " diye asla düşünmeyin! Uygulamada sizin için her şeyi düşündük, başlarken kısa ve etkili seviye tespit sınavımızla seviyenizi belirleyin ve sonuçta size sunulan modülleri takip edin, eğlenerek öğrenin...
                   </p>
                   <p>
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens with climate change. Even if the
-                    Arctic continues to be one of the fastest-warming regions of
-                    the world, it will always be plunged into bitterly cold
-                    polar dark every winter. And year-by-year, for all kinds of
-                    natural reasons, there’s huge variety of the state of the
-                    ice.
+                    Uygulamamızı inceleyerek bize destek olabilirsiniz.
                   </p>
                 </Col>
               </Row>
@@ -125,130 +101,62 @@ function AboutPage() {
         </div>
         <div className="section section-team text-center">
           <Container>
-            <h2 className="title">Here is our team</h2>
+            <h2 className="title">Takımımız</h2>
             <div className="team">
               <Row>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/avatar.jpg").default}
-                    ></img>
-                    <h4 className="title">Romina Hadid</h4>
-                    <p className="category text-info">Model</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
-                    </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
-                  </div>
+                <Col md="3">
+                  
                 </Col>
-                <Col md="4">
+                <Col md="3">
                   <div className="team-player">
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/ryan.jpg").default}
+                      src={require("assets/img/betul.jpg").default}
                     ></img>
-                    <h4 className="title">Ryan Tompson</h4>
-                    <p className="category text-info">Designer</p>
+                    <h4 className="title">Fatma Betül Uyar</h4>
+                    <p className="category text-info">Software Developer</p>
                     <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      Sakarya Üniversitesi bilgisayar mühendisliği 4. sınıf öğrencisi.{" "}
+                      {/* <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         links
                       </a>{" "}
-                      for people to be able to follow them outside the site.
+                      for people to be able to follow them outside the site. */}
                     </p>
+                    
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.linkedin.com/in/fatma-bet%C3%BCl-uyar/"
+                      
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
                   </div>
                 </Col>
-                <Col md="4">
+                <Col md="3">
                   <div className="team-player">
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/eva.jpg").default}
+                      src={require("assets/img/fatma.jpg").default}
                     ></img>
-                    <h4 className="title">Eva Jenner</h4>
-                    <p className="category text-info">Fashion</p>
+                    <h4 className="title">Fatma Özdemir</h4>
+                    <p className="category text-info">Software Developer</p>
                     <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      Sakarya Üniversitesi bilgisayar mühendisliği 4. sınıf öğrencisi.
+                      {/* <a href="#pablo" onClick={(e) => e.preventDefault()}>
                         links
                       </a>{" "}
-                      for people to be able to follow them outside the site.
+                      for people to be able to follow them outside the site. */}
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      href="https://www.linkedin.com/in/fatma-ozdemir-/"
+                      
                     >
-                      <i className="fab fa-google-plus"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
+                      <i className="fab fa-linkedin"></i>
                     </Button>
                   </div>
                 </Col>
@@ -258,8 +166,8 @@ function AboutPage() {
         </div>
         <div className="section section-contact-us text-center">
           <Container>
-            <h2 className="title">Want to work with us?</h2>
-            <p className="description">Your project is very important to us.</p>
+            <h2 className="title">Bizimle çalışmak ister misiniz?</h2>
+            <p className="description">Görüşleriniz bizim için önemli</p>
             <Row>
               <Col className="text-center ml-auto mr-auto" lg="6" md="8">
                 <InputGroup
@@ -273,7 +181,7 @@ function AboutPage() {
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder="First Name..."
+                    placeholder="Adınız..."
                     type="text"
                     onFocus={() => setFirstFocus(true)}
                     onBlur={() => setFirstFocus(false)}
@@ -290,7 +198,7 @@ function AboutPage() {
                     </InputGroupText>
                   </InputGroupAddon>
                   <Input
-                    placeholder="Email..."
+                    placeholder="Emailiniz..."
                     type="text"
                     onFocus={() => setLastFocus(true)}
                     onBlur={() => setLastFocus(false)}
@@ -300,7 +208,7 @@ function AboutPage() {
                   <Input
                     cols="80"
                     name="name"
-                    placeholder="Type a message..."
+                    placeholder="Mesajınızı yazınız..."
                     rows="4"
                     type="textarea"
                   ></Input>
@@ -314,7 +222,7 @@ function AboutPage() {
                     onClick={(e) => e.preventDefault()}
                     size="lg"
                   >
-                    Send Message
+                    Mesaj Gönder
                   </Button>
                 </div>
               </Col>
