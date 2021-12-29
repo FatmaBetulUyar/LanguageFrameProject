@@ -114,22 +114,26 @@ function IndexNavbar() {
                 </NavLink>
                 </NavItem>
                 <NavItem>
+                  <Link to="/login-page" >
+                 
                 <Button
                   className="nav-link btn-neutral"
                   color="error"
-                  href="https://www.creative-tim.com/product/now-ui-kit-pro-react?ref=nukr-index-navbar"
+                 
                   id="upgrade-to-pro"
                   target="_blank"
                 >
                   <i ></i>
                   <p>LOGIN</p>
                 </Button>
+                 </Link>
               </NavItem>
+
+              <Link to="/register-page" >
               <NavItem>
                 <Button
                   className="nav-link btn-neutral"
                   color="error"
-                  href="https://www.creative-tim.com/product/now-ui-kit-pro-react?ref=nukr-index-navbar"
                   id="upgrade-to-pro"
                   target="_blank"
                 >
@@ -137,7 +141,7 @@ function IndexNavbar() {
                   <p>REGISTER</p>
                 </Button>
               </NavItem>
-             
+              </Link>
               <NavItem>
                 <NavLink
                   href="https://www.facebook.com/CreativeTim?ref=creativetim"
