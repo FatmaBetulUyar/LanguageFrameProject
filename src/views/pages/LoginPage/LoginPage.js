@@ -19,6 +19,7 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import TransparentFooter from "components/Footers/TransparentFooter.js";
+import SignUp from "views/index-sections/SignUp";
 
 function LoginPage() {
 
@@ -26,7 +27,7 @@ function LoginPage() {
   return (
     <div>
        <ExamplesNavbar />
-            <SignUp/>
+         <SignUp></SignUp>
     </div>
     
   );

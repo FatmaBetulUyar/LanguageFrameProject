@@ -15,18 +15,18 @@ function DefaultFooter() {
           <nav>
             <ul>
               <Link to="/about-page" style={{marginRight:10}}>
-                <li>About Us</li>{" "}
+                <li>Hakkımızda</li>{" "}
               </Link>
               <Link to="/contact-page">
               <li>
-                  Contact
+                  İletişim
               </li>
               </Link>
             </ul>
           </nav>
           <div className="copyright" id="copyright" >
-            © {new Date().getFullYear()}, Designed by{" "}
-            <a
+            © {new Date().getFullYear()}, Language Frame
+            {/* <a
               href="https://www.invisionapp.com?ref=nukr-default-footer"
               target="_blank"
             >
@@ -38,7 +38,7 @@ function DefaultFooter() {
               target="_blank"
             >
               LF Tim
-            </a>
+            </a> */}
             .
           </div>
         </Container>
