@@ -1,3 +1,4 @@
+import NavbarAfterLogin from 'components/Navbars/NavbarAfterLogin'
 import React from 'react'
 import { Image, Item,Button } from 'semantic-ui-react'
 
