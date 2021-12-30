@@ -66,24 +66,24 @@ function ExamplesNavbar() {
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
               <DropdownItem header tag="a">
-                Dropdown header
+               
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Action
+                Seviye Sınavı Sorular
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Another action
+                Seviye Sınavı Çözümler
               </DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Something else here
-              </DropdownItem>
-              <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                Separated link
+                Eğitmenlerimiz
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
               <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
-                One more separated link
+                 Modüller
+              </DropdownItem>
+              <DropdownItem divider></DropdownItem>
+              <DropdownItem href="#pablo" onClick={(e) => e.preventDefault()}>
+                Bootcampleri
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
@@ -93,11 +93,11 @@ function ExamplesNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Now Ui Kit
+              M E N Ü
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
+                Language Frame Ekibi
+              </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -120,17 +120,17 @@ function ExamplesNavbar() {
             <Nav navbar>
               <NavItem>
                 <NavLink to="/index" tag={Link}>
-                  Back to Kit
+                  Anasayfaya Dön
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/now-ui-kit-react/issues?ref=creativetim">
-                  Have an issue?
+                <NavLink href="https://github.com/FatmaBetulUyar/LanguageFrameProject">
+                  Projeye Destek Ol
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://twitter.com/CreativeTim?ref=creativetim"
+                  href=""
                   target="_blank"
                   id="twitter-tooltip"
                 >
@@ -138,12 +138,12 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Twitter</p>
                 </NavLink>
                 <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
+                  Twitter
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                  href=""
                   target="_blank"
                   id="facebook-tooltip"
                 >
@@ -151,12 +151,12 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Facebook</p>
                 </NavLink>
                 <UncontrolledTooltip target="#facebook-tooltip">
-                  Like us on Facebook
+                  Facebook
                 </UncontrolledTooltip>
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  href=""
                   target="_blank"
                   id="instagram-tooltip"
                 >
@@ -164,7 +164,7 @@ function ExamplesNavbar() {
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
                 <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
+                  Instagram
                 </UncontrolledTooltip>
               </NavItem>
             </Nav>
